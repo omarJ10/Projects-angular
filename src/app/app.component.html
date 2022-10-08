@@ -1,0 +1,31 @@
+<table class="table" border="1">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>title</th>
+      <th>author</th>
+      <th>prix</th>
+    </tr>
+  </thead>
+  <tbody>
+
+      <th scope="col">
+         <tr *ngFor="let book of books" scope="row">{{book["id"]}}</tr>
+      </th>
+      <th scope="col">
+        <tr *ngFor="let book of books" scope="row">
+          {{book["title"]}}
+        </tr>
+      </th>
+      <th scope="col">
+       <tr *ngFor="let book of books" scope="row">{{book["author"]}}</tr>
+      </th>
+      <th scope="col">
+        <tr *ngFor="let book of books" scope="row">
+          {{book["prix"]}}
+        </tr>
+      </th>
+
+
+  </tbody>
+</table>
