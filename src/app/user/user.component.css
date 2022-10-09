@@ -1,0 +1,16 @@
+table{
+  width: 700px;
+  margin: 0 auto;
+  border-spacing: 1.3px;
+}
+table thead th{
+  color: #fff;
+  background-color: #404040;
+  padding: 14px 30px;
+}
+table th{
+  background-color: #EEE;
+  text-align: center;
+  padding: 14px 30px;
+  margin: 20px 20px;
+}
